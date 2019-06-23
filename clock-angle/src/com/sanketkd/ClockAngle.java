@@ -15,7 +15,7 @@ public class ClockAngle {
     System.out.println("## INPUT--->");
     System.out.println(hour + ":" + minute);
 
-    Integer angle = findAngle(hour, minute);
+    Double angle = findAngle(hour, minute);
 
     System.out.println("## OUTPUT-->");
     System.out.println("ANGLE = " + angle + "°");
@@ -28,12 +28,12 @@ public class ClockAngle {
    * @param minute of the time
    * @return angle
    */
-  public static Integer findAngle(Integer hour, Integer minute) {
+  public static Double findAngle(Integer hour, Integer minute) {
     Integer hourHandAngle = (hour * 30);
-    Integer hourMinuteAssociateAngle = minute != 0 ? (30 / (60 / minute)) : 0;
+    Double hourMinuteAssociateAngle = minute != 0 ? (30D / (60D / minute)) : 0D;
     Integer minuteHandAngle = (minute * 6);
 
-    Integer angle = Math.abs((hourHandAngle + hourMinuteAssociateAngle) - minuteHandAngle);
+    Double angle = Math.abs((hourHandAngle + hourMinuteAssociateAngle) - minuteHandAngle);
 
     if (angle > 180) {
       angle = 360 - angle;
