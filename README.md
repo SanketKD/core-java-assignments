@@ -28,9 +28,13 @@ This problem is know as [Clock angle problem](http://en.wikipedia.org/wiki/Clock
     public Double findAngle(Integer hour, Integer minute)
 
 Time : 12:45
+
 Input : hour = 12, Minute = 45
+
 Output : 112.5°
 
 Time : 3:30
+
 Input : hour = 3, Minute = 30
+
 Output : 75°
