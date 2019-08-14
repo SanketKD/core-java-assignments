@@ -8,7 +8,7 @@ package com.sanketkd;
  */
 public class ClockAngle {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     Integer hour = 12;
     Integer minute = 30;
 

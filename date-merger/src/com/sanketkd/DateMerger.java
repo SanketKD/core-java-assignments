@@ -15,7 +15,7 @@ import java.util.Set;
  */
 public class DateMerger {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     List<DateRange> dateRanges = new ArrayList<>();
     dateRanges.add(new DateRange(LocalDate.of(2019, 1, 1), LocalDate.of(2019, 1, 15)));
     dateRanges.add(new DateRange(LocalDate.of(2019, 1, 15), LocalDate.of(2019, 2, 15)));
