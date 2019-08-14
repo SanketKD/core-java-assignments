@@ -32,3 +32,10 @@ This problem is know as [Clock angle problem](http://en.wikipedia.org/wiki/Clock
 |Time : 12:45|Time : 3:30|
 |Input : hour = 12, Minute = 45|Input : hour = 3, Minute = 30|
 |Output : 112.5°|Output : 75°|
+
+## 3. Implement Queue using only one stack: [**queue-using-one-stack**](https://github.com/SanketKD/core-java-assignments/tree/master/queue-using-one-stack)
+Create a custom implementation of queue by using stack. Make sure that you use only one stack.
+
+    public void enqueue(T value)
+	public T dequeue()
+
