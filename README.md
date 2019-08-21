@@ -56,6 +56,7 @@ You have to write a java class having function:
 For testing purpose, please use below values for old and new plans:
 
 OLD PLAN
+
 |Task ID|End Date|End Date|
 |--|--|--|
 |101|10-MAY-2019|20-MAY-2019|
@@ -67,6 +68,7 @@ OLD PLAN
 |107|10-MAY-2019|20-MAY-2019|
 
 NEW PLAN
+
 |Task ID|End Date|End Date|
 |--|--|--|
 |101|01-MAY-2019|05-MAY-2019|
