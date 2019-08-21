@@ -39,3 +39,55 @@ Create a custom implementation of queue by using stack. Make sure that you use o
     public void enqueue(T value)
 	public T dequeue()
 
+## 4. Write an algorithm as a part of task allocation and planning to see 'cancelled' date ranges: [**cancelled-period-for-tasks**](https://github.com/SanketKD/core-java-assignments/tree/master/cancelled-period-for-tasks)
+Use the Plan class below:
+
+    	public class Plan {
+		private Integer taskId;
+		private LocalDate startDate;
+		private LocalDate endDate;
+		// getter and setter
+	}
+
+You have to write a java class having function:
+
+	public List<Plan> getCancelledPeriodsForTask(List<Plan> oldPlanList, List<Plan> newPlanList)
+
+For testing purpose, please use below values for old and new plans:
+
+OLD PLAN
+|Task ID|End Date|End Date|
+|--|--|--|
+|101|10-MAY-2019|20-MAY-2019|
+|102|10-MAY-2019|20-MAY-2019|
+|103|10-MAY-2019|20-MAY-2019|
+|104|10-MAY-2019|20-MAY-2019|
+|105|10-MAY-2019|20-MAY-2019|
+|106|10-MAY-2019|20-MAY-2019|
+|107|10-MAY-2019|20-MAY-2019|
+
+NEW PLAN
+|Task ID|End Date|End Date|
+|--|--|--|
+|101|01-MAY-2019|05-MAY-2019|
+|102|05-MAY-2019|15-MAY-2019|
+|103|05-MAY-2019|25-MAY-2019|
+|104|15-MAY-2019|18-MAY-2019|
+|105|15-MAY-2019|25-MAY-2019|
+|106|25-MAY-2019|30-MAY-2019|
+|107|12-MAY-2019|13-MAY-2019|
+|107|16-MAY-2019|18-MAY-2019|
+
+The output of the program for above test plans should be:
+
+|Task ID|End Date|End Date|
+|--|--|--|
+|101|10-MAY-2019|20-MAY-2019|
+|102|16-MAY-2019|20-MAY-2019|
+|104|10-MAY-2019|14-MAY-2019|
+|104|19-MAY-2019|20-MAY-2019|
+|105|10-MAY-2019|14-MAY-2019|
+|106|10-MAY-2019|20-MAY-2019|
+|107|10-MAY-2019|11-MAY-2019|
+|107|14-MAY-2019|15-MAY-2019|
+|107|19-MAY-2019|20-MAY-2019|
