@@ -42,11 +42,11 @@ Create a custom implementation of queue by using stack. Make sure that you use o
 ## 4. Write an algorithm as a part of task allocation and planning to see 'cancelled' date ranges: [**cancelled-period-for-tasks**](https://github.com/SanketKD/core-java-assignments/tree/master/cancelled-period-for-tasks)
 Use the Plan class below:
 
-    	public class Plan {
-		private Integer taskId;
-		private LocalDate startDate;
-		private LocalDate endDate;
-		// getter and setter
+	public class Plan {
+	  private Integer taskId;
+	  private LocalDate startDate;
+	  private LocalDate endDate;
+	  // getter and setter
 	}
 
 You have to write a java class having function:
