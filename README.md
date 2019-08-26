@@ -95,8 +95,3 @@ The output of the program for above test plans should be:
 |107|10-MAY-2019|11-MAY-2019|
 |107|14-MAY-2019|15-MAY-2019|
 |107|19-MAY-2019|20-MAY-2019|
-
-## 5. Divide two integers without using division, multiplication and mod operator: [**division-without-division-operator**](https://github.com/SanketKD/core-java-assignments/tree/master/division-without-division-operator)
-Perform division without using division, multiplication and mod operator.
-
-    private static Integer divide(Integer numerator, Integer denominator)
